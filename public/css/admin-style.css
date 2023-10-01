@@ -1,0 +1,251 @@
+.sidebar {
+    color: rgb(24, 19, 72);
+    position: fixed;
+    min-width: 260px;
+    background: rgb(24, 19, 72);
+    transition: all 0.5s ease;
+    padding-bottom: 48px;
+}
+
+main.content {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.logo h2 {
+    font-weight: bold;
+    margin-left: 5px;
+    color: white;
+
+}
+
+.logo img {
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+.item-menu {
+    color: rgba(223, 255, 218, 0.2);
+}
+
+.item-menu.active,
+.item-menu:hover {
+    color: #f7f708;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.item-menu:hover img {
+    filter: opacity(100%);
+}
+
+.item-menu.active::before {
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 8px;
+    margin: 14px 0;
+    position: absolute;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    background-color: rgb(223, 255, 218);
+}
+
+.item-menu img {
+    filter: opacity(20%);
+}
+
+.item-menu.active img {
+    filter: opacity(100%);
+}
+
+.item-menu.active::before img {
+    filter: opacity(100%);
+}
+
+.title-admin h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btn-excel button {
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    background-color: #e0ffdb;
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-show button {
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #008bfd;
+    border-color: rgb(0, 139, 253);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-edit button {
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgb(0, 255, 76);
+    border-color: rgb(0, 255, 76);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+    margin-left: 5px;
+}
+
+.btn-delete button {
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    border-color: rgb(253, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+    margin-left: 5px;
+}
+
+.btn-reset button {
+    border-radius: 11px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+    margin-left: 5px;
+    position: absolute;
+    right: 5%;
+}
+
+.btn-resett button {
+    border-radius: 11px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+
+}
+
+.btn-add input {
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #008bfd;
+    border-color: rgb(0, 139, 253);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+    margin-left: 5px;
+}
+
+.btn-closes button {
+    border-radius: 15px;
+    margin-right: 4px;
+    padding: 3px 15px;
+    font-weight: bold;
+    color: black;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(139, 143, 139);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-update button {
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-color: rgb(250, 250, 250);
+    background-color: rgb(255, 217, 0);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+    margin-left: 5px;
+}
+
+.btn-save button {
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(7, 105, 252);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-back button {
+    border-radius: 15px;
+    margin-right: 4px;
+    padding: 3px 15px;
+    font-weight: bold;
+    color: black;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-fuzzy a {
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: rgb(0, 139, 253);
+    border-color: rgb(0, 139, 253);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-print a {
+    border-radius: 7px;
+    padding: 5px 15px;
+    margin: 8px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-color: rgb(23, 26, 28);
+    background-color: rgb(9, 184, 41);
+   }
+
+.card-dashboard .card {
+    display: flex;
+    border: 0;
+    background-color: rgba(26, 24, 24, 0.8);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 4px 5px 0 rgba(0, 0, 0, 0.08);
+}
+
+.card-dashboard .card img {
+    position: relative;
+    bottom: 40px;
+}
+
+.card-dashboard .text-end p {
+    font-size: 20px;
+
+}
+
+.card-dashboard .text-end h4 {
+    font-size: 40px;
+}
+
+.card-dashboard .text-end {
+    position: relative;
+    padding-left: 10px;
+
+}
+
+.select-searching button {
+    background-color: white;
+    border-radius: 10px;
+    border: solid 0.5px rgba(192, 192, 192, 0.8);
+    color: #000000;
+    height: 40px;
+    position: relative;
+    right: 2px;
+}
